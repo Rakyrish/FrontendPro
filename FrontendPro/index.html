@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FrontendPro Sandbox</title>
+  <meta charset="UTF-8" />
+  <!-- Linking the CSS file -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1 id="app">Take your skills to the next level!🚀</h1>
+
+  <!-- button to give feedback -->
+  <button id="feedbackButton">Feedback</button>
+
+  <!-- the modal -->
+  <div id="modal" class="hidden">
+    <div id="feedbackModal">
+      <button class="close-btn" id="closeBtn">✖</button>
+      <h2>How likely are you torecommend FrontendPro<br>to someone you know?</h2>
+      <div id="ratingContainer"></div>
+      <div class="modal-buttons">
+        <button id="cancelBtn">Cancel</button>
+        <button id="submitBtn">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Linking the JavaScript file -->
+  <script src="index.js"></script>
+</body>
+</html>
